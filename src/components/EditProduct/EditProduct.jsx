@@ -86,7 +86,7 @@ const EditProduct = ({
         <Button variant="secondary" onClick={handleEditClose}>
           Close
         </Button>
-        <Button variant="primary" onClick={() => handleSave(pro1duct)}>
+        <Button variant="primary" onClick={() => handleSave(product)}>
           Save changes
         </Button>
       </Modal.Footer>
